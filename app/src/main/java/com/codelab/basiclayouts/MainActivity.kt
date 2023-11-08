@@ -215,7 +215,7 @@ fun HomeScreen(modifier: Modifier = Modifier) {
     ) {
         Spacer(Modifier.height(16.dp))
         SearchBar(Modifier.padding(horizontal = 16.dp))
-        HomeSection(title = R.string.Pokemon_list) {
+        HomeSection(title = R.string.Harry_Potter_list) {
             AlignYourBodyRow()
         }
         HomeSection(title = R.string.More_info) {
@@ -343,22 +343,23 @@ fun MySootheApp(windowSize: WindowSizeClass) {
 }
 
 private val alignYourBodyData = listOf(
-    R.drawable.eevee to R.string.Eevee,
-    R.drawable.vaporeon to R.string.Vaporeon,
-    R.drawable.jolteon to R.string.Jolteon,
-    R.drawable.flareon to R.string.Flareon,
-    R.drawable.espeon to R.string.Espeon,
-    R.drawable.umbreon to R.string.Umbreon,
-    R.drawable.sylveon to R.string.Sylveon
+    R.drawable.harry to R.string.Harry,
+    R.drawable.ron to R.string.Ron,
+    R.drawable.hermione to R.string.Hermione,
+    R.drawable.draco to R.string.Draco,
+    R.drawable.lunita_mi_amol to R.string.Lunita,
+    R.drawable.voldemort to R.string.Voldemort,
+    R.drawable.snape to R.string.Snape,
+    R.drawable.albus to R.string.Albus
 ).map { DrawableStringPair(it.first, it.second) }
 
 private val favoriteCollectionsData = listOf(
-    R.drawable.data to R.string.Data,
-    R.drawable.types to R.string.Types,
-    R.drawable.lore to R.string.Lore,
-    R.drawable.region to R.string.Region,
-    R.drawable.evolutions to R.string.Evolutions,
-    R.drawable.versions to R.string.Versions
+    R.drawable.piedra_filosofal to R.string.Piedra,
+    R.drawable.camara_secreta to R.string.Camara,
+    R.drawable.prisionero to R.string.Azkaban,
+    R.drawable.calis_de_fuego to R.string.Caliz,
+    R.drawable.orden_del_fenix to R.string.Fenix,
+    R.drawable.principe to R.string.Principe
 ).map { DrawableStringPair(it.first, it.second) }
 
 private data class DrawableStringPair(
@@ -377,8 +378,8 @@ fun SearchBarPreview() {
 fun AlignYourBodyElementPreview() {
     MySootheTheme {
         AlignYourBodyElement(
-            text = R.string.Eevee,
-            drawable = R.drawable.eevee,
+            text = R.string.Harry,
+            drawable = R.drawable.harry,
             modifier = Modifier.padding(8.dp)
         )
     }
@@ -389,8 +390,8 @@ fun AlignYourBodyElementPreview() {
 fun FavoriteCollectionCardPreview() {
     MySootheTheme {
         FavoriteCollectionCard(
-            text = R.string.Types,
-            drawable = R.drawable.types,
+            text = R.string.Camara,
+            drawable = R.drawable.camara_secreta,
             modifier = Modifier.padding(8.dp)
         )
     }
@@ -412,7 +413,7 @@ fun AlignYourBodyRowPreview() {
 @Composable
 fun HomeSectionPreview() {
     MySootheTheme {
-        HomeSection(R.string.Pokemon_list) {
+        HomeSection(R.string.Harry_Potter_list) {
             AlignYourBodyRow()
         }
     }

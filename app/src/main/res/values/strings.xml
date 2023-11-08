@@ -12,25 +12,25 @@
   the License.
   -->
 <resources>
-    //circulos
-    <string name="app_name">Pokedex</string>
+    <string name="app_name">Harry Potter</string>
     <string name="More_info">More info</string>
-    <string name="Pokemon_list">Pokemon list</string>
-    <string name="Eevee">Eevee</string>
-    <string name="Vaporeon">Vaporeon</string>
-    <string name="Jolteon">Jolteon</string>
-    <string name="Flareon">Flareon</string>
-    <string name="Espeon">Espeon</string>
-    <string name="Umbreon">Umbreon</string>
-    <string name="Sylveon">Sylveon</string>
-    //ya no circulos
-    <string name="Data">Data</string>
-    <string name="Types">Types</string>
-    <string name="Lore">Lore</string>
-    <string name="Region">Region</string>
-    <string name="Evolutions">Evolutions</string>
-    <string name="Versions">Versions</string>
-    //fin
+    <string name="Harry_Potter_list">Personajes</string>
+    <string name="Harry">Harry Potter</string>
+    <string name="Ron">Ron Weasley</string>
+    <string name="Hermione">Hermione Granger</string>
+    <string name="Draco">Draco Malfoy</string>
+    <string name="Lunita">Luna Lovegood</string>
+    <string name="Voldemort">Lord Voldemort</string>
+    <string name="Snape">Severus Snape</string>
+    <string name="Albus">Albus Dumbledore</string>
+
+    <string name="Piedra">Harry Potter y la Piedra Filosofal</string>
+    <string name="Camara">Harry Potter y la Camara Secreta</string>
+    <string name="Azkaban">Harry Potter y el Prisionero de Azkban</string>
+    <string name="Caliz">Harry Potter y el Caliz de Fuego</string>
+    <string name="Fenix">Harry Potter y la Orden del Fenix</string>
+    <string name="Principe">Harry Potter y el Misterio del Principe</string>
+
     <string name="cd_fab_start">start</string>
     <string name="bottom_navigation_home">Home</string>
     <string name="bottom_navigation_profile">Profile</string>
